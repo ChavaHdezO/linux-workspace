@@ -1,0 +1,14 @@
+libreoffice “file.extension” &              Open file with LibreOffice from terminal
+/                                           The root subvolume contains the system installation
+/home                                       The home subvolume contains user data and settings
+mv                                          Don't need -r (recursive) argument for folders move
+printenv                                    Show environment variables list
+export ANDROID_HOME home/chava/android_sdk  Exports a new environment variable
+rm -r cmdline-tools/                        Remove folders and subfolders in a recurvise way
+ls -lh                                      Show file size in KB, MB, GB, etc.
+du -csh *                                   Show folder, file and total size in KB, MB, GB, etc.
+
+Ningún escritorio remoto es compatible con Android Go y Fedora, solo uno:
+AnyDesk, el único detalle:
+Se debe iniciar Fedora con x.org (x11), ya que no soporta Wayland.
+Instalamos la aplicación usando el flatpak en la aplicación software, ya que de la página oficial el .rpm detecta dependencias rotas.
